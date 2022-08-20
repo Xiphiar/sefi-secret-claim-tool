@@ -76,7 +76,7 @@ function Main() {
             setClaimAmount(sefiAmount);
             setAlreadyClaimed(true);
             setLoadingClaim(false);
-            //return;
+            return;
         }
         proofResponse = proof;
         setClaimAmount(sefiAmount);
