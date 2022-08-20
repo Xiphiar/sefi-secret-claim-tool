@@ -1,0 +1,53 @@
+{
+  "name": "sefi-secret-claim-tool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@keplr-wallet/types": "^0.10.17",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.11.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "async-await-retry": "^1.2.4",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
+    "react-json-view": "^1.21.3",
+    "react-scripts": "4.0.3",
+    "react-toastify": "9.0.3",
+    "secretjs": "^1.3.0-beta.1",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
