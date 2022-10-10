@@ -125,7 +125,7 @@ function Main() {
             msg: { claim: execMsg }
         },
         {
-            gasLimit: 100000
+            gasLimit: 400_000
         })
 
         console.log(result);
